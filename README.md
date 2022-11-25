@@ -1,3 +1,3 @@
-# Weather-App
+# WeatherApp
 
-Simple react application, using the weather api.
+Simple react application, using the OpenWeather api.
