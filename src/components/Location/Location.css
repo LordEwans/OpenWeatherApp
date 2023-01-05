@@ -1,0 +1,7 @@
+.location--child {
+    @apply h-[50vh] lg:h-screen w-screen lg:w-[40%] top-0 lg:left-0 bg-[rgba(0,0,0,0.5)] flex flex-col justify-center items-center text-center absolute;
+}
+
+.condition {
+    @apply flex justify-between items-center;
+}

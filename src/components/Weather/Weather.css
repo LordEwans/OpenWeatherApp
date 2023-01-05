@@ -1,0 +1,3 @@
+.weather--child {
+    @apply h-[50vh] lg:h-screen w-screen lg:w-[60%] bottom-0 lg:right-0 bg-inherit flex flex-col justify-center items-center text-center absolute;
+}
