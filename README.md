@@ -1,3 +1,3 @@
 # OpenWeatherApp
 
-Simple react application, using the OpenWeather api.
+Simple react application, using the [Weatherstack Api](https://weatherstack.com).
