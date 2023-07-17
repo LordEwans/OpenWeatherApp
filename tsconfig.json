@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "watch": true,
+        "lib": [
+            "dom",
+            "esnext"
+        ],
+        "module": "esnext",
+        "jsx": "react",
+        "skipLibCheck": true,
+        "allowJs": true,
+        "allowUnusedLabels": true,
+        "allowSyntheticDefaultImports": true
+    }
+}

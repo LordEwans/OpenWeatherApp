@@ -1,0 +1,43 @@
+.weather--child {
+    @apply h-[60vh] lg:h-screen w-screen lg:w-[60%] bottom-0 lg:right-0 bg-inherit flex flex-col justify-center items-center text-center absolute;
+}
+
+.forecast--main {
+    @apply w-full;
+}
+
+.day--main {
+    @apply w-full h-[10%] top-0 absolute flex flex-row justify-center items-center bg-[rgba(0,0,0,0.50)];
+}
+
+.day--child {
+    @apply w-[90%] h-full absolute flex flex-row justify-between items-center;
+}
+
+.daily--main {
+    @apply w-full h-[20%] top-[10%] lg:h-[15%] self-center absolute flex flex-row justify-around items-center bg-[rgba(0,0,0,0.25)];
+}
+
+.daily--child {
+    @apply flex flex-col justify-center items-center;
+}
+
+.daily--child-img {
+    @apply w-[50%] lg:w-[75%];
+}
+
+.hourly--main {
+    @apply w-full h-[70%] lg:h-[75%] bottom-0 absolute flex flex-row justify-center bg-[rgba(0,0,0,0)];
+}
+
+.hourly--child {
+    @apply w-[90%] h-[10%];
+}
+
+.hourly--grandchild {
+    @apply w-full h-full flex flex-row justify-between items-center;
+}
+
+.hourly--grandchild-img {
+    @apply w-[7.5%] lg:w-[10%];
+}

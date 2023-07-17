@@ -1,0 +1,3 @@
+.app--main {
+  @apply w-full h-screen text-white text-2xl;
+}
